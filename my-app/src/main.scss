@@ -1,0 +1,11 @@
+main {
+    height: 70%;
+    background-color: $back-main;
+
+    section {
+      width: 50%;
+      height: 100%;
+      border-right: 1px solid white;
+      @include flex;
+    }
+}
